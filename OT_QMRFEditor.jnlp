@@ -1,0 +1,70 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://opentox.informatik.uni-freiburg.de/" href="qmrfedit/OT_QMRFEditor.jnlp" >
+<information>
+<title>QMRF Editor</title>
+<vendor>www.opentox.org</vendor>
+<description>(Q)SAR Model Reporting Format Editor</description>
+<description kind="short">(Q)SAR Model Reporting Format Editor</description>
+<icon href="qmrfedit/OTLogo.png" />
+</information>
+<resources>
+<j2se version="1.6+" java-vm-args="-Xincgc"/>
+
+<jar href="qmrfedit/OT_QMRFEditor.jar" download="eager" main="true"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-applications.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-builder3d.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-charges.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-core.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-datadebug.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-data.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-experimental.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-extra.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-forcefield.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-interfaces.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-io.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-jchempaint.applet.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-jchempaint.application.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-jchempaint.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-libio-cml.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-libio-weka.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-nonotify.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-pdb-cml.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-pdb.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-qsar-cml.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-qsar.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/cdk-qsar-pdb.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/commons-cli-1.0.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/commons-io-1.1.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/commons-logging-1.0.4.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/commons-codec-1.3.jar" download="eager" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/fop.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/jai_codec.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/jai_core.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/jgrapht-0.6.0.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/jh.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/l2fprod-common-all.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/libfonts-0.1.4.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/log4j-1.2.8.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/log4j.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/mysql-connector-java-5.0.5-bin.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/naming-factory-dbcp.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/naming-factory.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/naming-resources.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/opsin-big-0.1.0.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/org.restlet.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/swing-layout-1.0.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/xmlgraphics-commons-1.1.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/xom-1.1b2.jar" download="lazy" />
+<jar href="qmrfedit/OT_QMRFEditor_lib/xom-1.1.jar" download="lazy" />
+
+
+</resources>
+<application-desc main-class="ambit.applications.qmrf.QMRFEditor">
+<argument>-d http://opentox.informatik.uni-freiburg.de/qmrfedit/qmrf.dtd</argument>
+<argument>-t http://opentox.informatik.uni-freiburg.de/qmrfedit/verdana.ttf</argument>
+
+</application-desc> 
+<security>
+    <all-permissions/>
+</security>
+</jnlp>
