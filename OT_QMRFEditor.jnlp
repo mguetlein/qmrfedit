@@ -11,6 +11,12 @@
 <j2se version="1.6+" java-vm-args="-Xincgc"/>
 
 <jar href="qmrfedit/OT_QMRFEditor.jar" download="eager" main="true"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/xercesImpl.jar" download="eager"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/itext-1.4.5.jar" download="eager"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/poi-3.0.jar" download="lazy"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/poi-contrib.jar" download="lazy"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/poi-scratchpad.jar" download="lazy"/>
+<jar href="qmrfedit/OT_QMRFEditor_lib/commons-lang-2.3.jar" download="lazy"/>
 <jar href="qmrfedit/OT_QMRFEditor_lib/cdk-applications.jar" download="lazy" />
 <jar href="qmrfedit/OT_QMRFEditor_lib/cdk-builder3d.jar" download="lazy" />
 <jar href="qmrfedit/OT_QMRFEditor_lib/cdk-charges.jar" download="lazy" />
